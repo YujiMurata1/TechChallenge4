@@ -1,0 +1,16 @@
+pandas==2.2.1
+streamlit>=1.12.0
+ipeadatapy
+matplotlib
+scikit-learn
+tensorflow
+numpy
+warnings
+requests
+BeautifulSoup==4.12.3
+datetime
+torch
+sklearn
+streamlit
+lxml=4.9.4
+joblib
