@@ -1,24 +1,3 @@
-# import ipeadatapy as ip
-# import pandas as pd
-# import streamlit as st
-# import torch
-# import torch.nn as nn
-# from torch.optim import Adam
-# from sklearn.preprocessing import MinMaxScaler
-# import pickle
-# import matplotlib.pyplot as plt
-# from sklearn.metrics import mean_squared_error, mean_absolute_error
-# from sklearn.ensemble import GradientBoostingRegressor
-# from sklearn.model_selection import train_test_split
-# import matplotlib.dates as mdates
-# import numpy as np
-# import seaborn as sns
-# from statsmodels.tsa.stattools import acf, pacf
-# from statsmodels.tsa.stattools import adfuller
-# from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-# from statsmodels.tsa.arima.model import ARIMA
-# from statsmodels.tsa.seasonal import seasonal_decompose
-
 import streamlit as st
 import ipeadatapy as ip
 import warnings
@@ -322,7 +301,7 @@ elif topico_selecionado == topico3:
     for paragraph in paragraphs:
         st.write(paragraph)
 
-    url_produtor = "https://github.com/carolmorelli/TechChallenge4/imagens/produtores_2022.png"
+    url_produtor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/produtores_2022.png"
     st.image(url_produtor, use_column_width=True, caption='Produtores')
     
     paragraphs = [
@@ -333,7 +312,7 @@ elif topico_selecionado == topico3:
     for paragraph in paragraphs:
         st.write(paragraph)
 
-    url_produtor = "https://github.com/carolmorelli/TechChallenge4/imagens/consumidores_2022.png"
+    url_produtor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/consumidores_2022.png"
     st.image(url_produtor, use_column_width=True, caption='Consumidores')
 
 
