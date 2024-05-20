@@ -16,6 +16,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import joblib
+from PIL import Image
 
 
 with st.sidebar:
@@ -300,8 +301,9 @@ elif topico_selecionado == topico3:
     for paragraph in paragraphs:
         st.write(paragraph)
 
-    url_produtor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/produtores_2022.png"
-    st.image(url_produtor, use_column_width=True, caption='Produtores')
+    url_produtor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/consumidores_2022.png"
+    imagem2 = Image.open(url_produtor)
+    st.image(imagem2, use_column_width=True, caption='Consumidores')
     
     paragraphs = [
         "",
@@ -311,8 +313,9 @@ elif topico_selecionado == topico3:
     for paragraph in paragraphs:
         st.write(paragraph)
 
-    url_produtor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/consumidores_2022.png"
-    st.image(url_produtor, use_column_width=True, caption='Consumidores')
+    url_consumidor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/consumidores_2022.png"
+    imagem2 = Image.open(url_consumidor)
+    st.image(imagem2, use_column_width=True, caption='Consumidores')
 
 
     st.write('## Predição')
