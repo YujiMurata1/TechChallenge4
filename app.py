@@ -301,7 +301,7 @@ elif topico_selecionado == topico3:
     for paragraph in paragraphs:
         st.write(paragraph)
 
-    url_produtor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/consumidores_2022.png"
+    url_produtor = "/mount/src/techchallenge4/images/imagens/produtores_2022.png"
     imagem2 = Image.open(url_produtor)
     st.image(imagem2, use_column_width=True, caption='Consumidores')
     
@@ -313,7 +313,7 @@ elif topico_selecionado == topico3:
     for paragraph in paragraphs:
         st.write(paragraph)
 
-    url_consumidor = "https://github.com/carolmorelli/TechChallenge4/blob/main/imagens/consumidores_2022.png"
+    url_consumidor = "/mount/src/techchallenge4/images/imagens/consumidores_2022.png"
     imagem2 = Image.open(url_consumidor)
     st.image(imagem2, use_column_width=True, caption='Consumidores')
 
