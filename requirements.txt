@@ -12,5 +12,4 @@ datetime
 torch
 sklearn
 streamlit
-lxml=4.9.4
 joblib
