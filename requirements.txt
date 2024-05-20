@@ -6,7 +6,7 @@ scikit-learn
 tensorflow
 numpy
 requests
-BeautifulSoup==4.12.3
+beautifulsoup4==4.12.2
 datetime
 torch
 sklearn
