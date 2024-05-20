@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.ticker import MaxNLocator
 import numpy as np
+import warnings
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
