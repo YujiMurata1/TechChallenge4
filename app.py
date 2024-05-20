@@ -1,6 +1,5 @@
 import streamlit as st
 import ipeadatapy as ip
-import warnings
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
